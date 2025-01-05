@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Task Link</title>
+    <style>
+        body {
+            background-image: url("https://i.pinimg.com/736x/34/09/24/340924170b7635f068446f80ac205f11.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.0);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            width: 300px; /* Fixed width */
+        }
+        h1 {
+            font-size: 26px;
+            margin-bottom: 20px;
+            color: #333333; /* Dark color for the heading */
+        }
+        .task {
+            padding: 15px;
+            
+        
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #333333; /* Text color */
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .task:hover {
+            transform: scale(1.05); /* Grow on hover */
+            background-color: #ffe0b2; /* Light orange on hover */
+        }
+        a {
+            color: #007BFF; /* Link color */
+            font-weight: bold;
+            text-decoration: none; /* Remove underline */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+            color: #0056b3; /* Darker color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Potential Tourism Sites</h1>
+        <div class="task">
+            <strong>Complete Report:</strong> 
+            <a href="frontpage.html" target="_blank">view</a>
+        </div>
+    </div>
+</body>
+</html>
